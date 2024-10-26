@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color:purple;
+    font-size: 40px;
+}
+html,body{
+    background-color: #FFF778;
+}
+.container{
+    border:1px solid black;
+    height: 450px;
+    max-width: 320px;
+    margin: 100px  480px ;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 19px;
+    box-shadow: 12px 12px rgba(0, 0, 0, 0.432);
+}
+.container img{
+    border-radius: 180px;
+    width:150px;
+    height:160px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container h2 {
+    font-size: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.container h4{
+    font-size: 20px;
+}
+.profile-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:30px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile img{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-bottom:10px;
+}
+.caption{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
