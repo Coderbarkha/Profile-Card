@@ -53,6 +53,11 @@ html,body{
     margin-right: 30px;
     margin-bottom:10px;
 }
+img:hover{
+        transform: scale(1.03);
+        transition: 0.3s;
+        filter: drop-shadow(0 0 10 #333);
+}
 .caption{
     display:flex;
     justify-content: space-around;
